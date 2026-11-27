@@ -1,6 +1,6 @@
 package com.gabrielcastro.usuario.infrastructure.repository;
 
-import com.gabriel.spring_boot_project.infrastructure.entity.Telefone;
+import com.gabrielcastro.usuario.infrastructure.entity.Telefone;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
