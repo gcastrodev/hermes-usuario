@@ -3,10 +3,9 @@ package com.gabrielcastro.usuario;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootTest(properties = {
-    "spring.autoconfigure.exclude=org.springframework.boot.jdbc.autoconfigure.DataSourceAutoConfiguration"
-})
+@SpringBootTest
 class UsuarioApplicationTests {
+
   @Test
   void contextLoads() {
   }
